@@ -1,0 +1,45 @@
+.container {
+  width: 80%;
+  margin: 20px auto;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav > div {
+  margin: 10px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background-color: #D3D3D3;
+}
+
+nav > div:hover {
+  opacity: 0.9;
+}
+
+.slide {
+  width: 90%;
+  height: 800px;
+  box-sizing: border-box;
+  border: 2px solid black;
+  overflow: hidden;
+
+}
+
+.slide img {
+  max-width: 100%;
+}
+
+#left:hover, #right:hover {
+  opacity: 0.5;
+}
